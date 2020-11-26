@@ -29,7 +29,7 @@ img{
     width: 300px;
 }
 a {
-    color: #FFE66D;
+    color: rgb(249, 190, 2);
 }
 a:hover {
     text-decoration: none;
@@ -79,7 +79,7 @@ h3 {
 /* Profile
 -------------------------------------------------*/
 header {
-    background: #343434;
+    background: rgba(31, 55, 67, 1);
     color: #F7FFF7;
 }
 header .img-circle {
@@ -95,11 +95,8 @@ header .content-wrap {
     width: unset;
 }
 .navbar {
-    background-color: rgb(220,227,233);
-     /* #fbfaf8; */
-    /* border: 1px solid; */
-    /* border-color: #cccccc transparent; */
-    border: 1px solid;
+    background-color:rgb(242, 243, 245);
+    border: 3px double;
     border-color: rgba(35, 64, 78, 1) transparent;
 }
 .navbar ul {
@@ -107,35 +104,41 @@ header .content-wrap {
     justify-content: center;
     list-style: none;
     font-family: "Open sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.2rem;
     text-transform: uppercase;
     line-height: 1.6em;
     margin: 0 auto;
     padding: 20px 15px;
-    color: rgb(35, 64, 78);
 }
-.navbar ul li a {
+.navbar a {
     padding: 20px 30px;
     text-decoration: none;
+    color: rgba(35, 64, 78, 70%);
+}
+.navbar a:hover {
+    color: rgba(35, 64, 78, 1);
 }
 /* Projects
 -------------------------------------------------*/
 .projects {
-    background: #F7FFF7;
+    background:rgb(242, 243, 245);
+    border: 3px double;
+    border-color: rgba(35, 64, 78, 1) transparent;
 }
 .projects a {
-    color: #2F3061;
+    color: rgba(35, 64, 78, 1);
 }
 .projects .btn {
     color:  #F7FFF7;
-    background: #2F3061;
+    background:rgba(35, 64, 78, 1);
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
 }
 .projects .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: rgba(35, 64, 78, 80%);
 }
 .project-item {
     overflow: hidden;
@@ -155,8 +158,9 @@ header .content-wrap {
 .work-experience .content-wrap {
     /* margin: 60px auto; */
     padding: 0 15px;
-    background-color: rgba(220,227,233,0.75);
+    background-color: rgba(242, 243, 245,0.75);
     border: 1px solid rgba(35, 64, 78, 1);
+    box-sizing: content-box;
 }
 /* Education
 -------------------------------------------------*/
@@ -173,7 +177,7 @@ header .content-wrap {
 /* Contact Info
 -------------------------------------------------*/
 footer {
-    background: #343434;
+    background: rgba(35, 64, 78, 1);
     color: #F7FFF7;
 }
 .contact-list{
@@ -198,7 +202,7 @@ footer {
     header .img-circle {
         flex: 0 0 auto;
         border-radius: 0%;
-        margin: 70px 15px;
+        margin: 90px 15px;
     }
     header .content-wrap {
         margin: 0 0 ;
