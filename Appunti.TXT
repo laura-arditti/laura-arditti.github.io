@@ -1,0 +1,7 @@
+Project Images
+- thumbnails = 600px width
+- background = 1400px to 2000px width
+
+Link utili:
+https://coolors.co/
+https://picsum.photos/
