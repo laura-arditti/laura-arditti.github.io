@@ -2,10 +2,10 @@
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a15607
 #F7FFF7 - almost white
+242, 243, 245 - ice white
 #343434 - dark grey - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
+31, 55, 67 - petroleum
+249, 190, 2 - warm yellow
 */
 
 /* Global styles
@@ -61,6 +61,17 @@ header h2 {
 }
 h3 {
     margin-bottom: 0;
+}
+.btn {
+    color:  #F7FFF7;
+    background:rgba(35, 64, 78, 1);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.btn:hover {
+    background: rgba(35, 64, 78, 80%);
 }
 .item-details h3 + p {
     font-style: italic;
@@ -119,6 +130,36 @@ header .content-wrap {
 .navbar a:hover {
     color: rgba(35, 64, 78, 1);
 }
+
+/* Research
+-------------------------------------------------*/
+.research{
+    background-image: url(../images/joel-filipe-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding: 60px 0;
+}
+.research .content-wrap {
+    /* margin: 60px auto; */
+    padding: 0 15px;
+    background-color: rgba(242, 243, 245,0.75);
+    border: 1px solid rgba(35, 64, 78, 1);
+    box-sizing: content-box;
+}
+.research section h2 {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    color: rgba(35, 64, 78);
+}
+.research a {
+    color: rgba(35, 64, 78, 1);
+}
+.research a.btn {
+    color: rgba(255, 255, 255, 0.9);
+}
 /* Projects
 -------------------------------------------------*/
 .projects {
@@ -129,38 +170,14 @@ header .content-wrap {
 .projects a {
     color: rgba(35, 64, 78, 1);
 }
-.projects .btn {
-    color:  #F7FFF7;
-    background:rgba(35, 64, 78, 1);
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
-    display: inline-block;
-}
-.projects .btn:hover {
-    background: rgba(35, 64, 78, 80%);
+.projects a.btn{
+    color:rgba(255, 255, 255, 0.9);
 }
 .project-item {
     overflow: hidden;
 }
 .project-item h3 {
     margin-top: 0;
-}
-
-/* Work experience
--------------------------------------------------*/
-.work-experience{
-    background-image: url(../images/joel-filipe-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding: 60px 0;
-}
-.work-experience .content-wrap {
-    /* margin: 60px auto; */
-    padding: 0 15px;
-    background-color: rgba(242, 243, 245,0.75);
-    border: 1px solid rgba(35, 64, 78, 1);
-    box-sizing: content-box;
 }
 /* Education
 -------------------------------------------------*/
