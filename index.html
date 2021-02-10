@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">   -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/styles.css" />
     <link href="css/carousel.css" rel="stylesheet" media="all" />
   </head>
@@ -48,8 +50,13 @@
         </div>
       </header>
 
-      <div class="navbar">
+      <div class="navbar" id="topnavbar">
         <ul>
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
           <li>
             <a href="#research">research</a>
           </li>
@@ -410,5 +417,6 @@
       </footer>
     </main>
     <script src="javascript/van11y-accessible-carrousel-aria.min.js"></script>
+    <script src="javascript/responsive-navbar.js"></script>
   </body>
 </html>
