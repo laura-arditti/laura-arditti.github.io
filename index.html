@@ -20,24 +20,20 @@
     />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">   -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="css/carousel.css" rel="stylesheet" media="all" />
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <img
-          class="img-circle"
-          src="images/profile.jpeg"
-          alt=""
-        />
+        <img class="img-circle" src="images/profile.jpeg" alt="" />
         <div class="content-wrap" id="top">
           <h1>Laura Arditti</h1>
           <h2>Applied Mathematics PhD student @ PoliTo</h2>
 
           <p>
             Currently a PhD student at the Department of Mathematical Sciences
-            of Politecnico di Torino, 
-            within the
+            of Politecnico di Torino, within the
             <a href="https://areeweb.polito.it/disma-excellence/">
               Excellence project
             </a>
@@ -46,8 +42,8 @@
           <p>
             Laura is a passionate young mathematician with a background in
             engineering, aiming to contribute to the development of knowledge
-            and to technological progress. She looks forward to growing experiences
-            both in academia and industries.
+            and to technological progress. She looks forward to growing
+            experiences both in academia and industries.
           </p>
         </div>
       </header>
@@ -64,7 +60,7 @@
             <a href="#education">education</a>
           </li>
           <li>
-            <a href="files/cv.pdf", target="_blank">cv</a>
+            <a href="files/cv.pdf" , target="_blank">cv</a>
           </li>
         </ul>
       </div>
@@ -101,6 +97,55 @@
             <section class="publications">
               <h2>Publications</h2>
               <!-- Copy this whole <section> block to add more papers. -->
+              <div class="js-carrousel relative pb1">
+                <div
+                  class="js-carrousel__container mod--hidden mb1"
+                  data-carrousel-btn-previous-img="images/left.svg"
+                  data-carrousel-btn-next-img="images/right.svg"
+                  data-carrousel-btn-previous-text="See previous content"
+                  data-carrousel-btn-next-text="See next content"
+                  data-carrousel-prefix-class="news"
+                  data-carrousel-span-text-class="invisible"
+                  data-carrousel-transition="slide"
+                  data-carrousel-existing-hx="h2"
+                >
+                  <div class="js-carrousel__content">
+                    <h2>First content zone</h2>
+                    <p>
+                      This first example of
+                      <a
+                        href="https://van11y.net/accessible-carrousel/"
+                        class="link"
+                        >accessible carrousel</a
+                      >
+                      is animated. You may test it!
+                    </p>
+                  </div>
+                  <!--
+                -->
+                  <div class="js-carrousel__content">
+                    <h2>Second content zone</h2>
+                    <p>
+                      You may use <kbd>Tab</kbd>. Controls below can be browsed
+                      using <kbd>left</kbd> and <kbd>right</kbd> arrows on the
+                      keyboard.
+                    </p>
+                  </div>
+                  <!--
+                -->
+                  <div class="js-carrousel__content">
+                    <h2>Third content zone</h2>
+                    <p>
+                      This example is using <code>h2</code> headings (which will
+                      be used for buttons bellow), so it is the perfect case
+                      study.
+                    </p>
+                  </div>
+                  <!--
+                  -->
+                </div>
+              </div>
+
               <section class="job-item">
                 <div class="job-details">
                   <h3>Separable games</h3>
@@ -235,14 +280,23 @@
               />
               <h3>Cascading failures in power grids</h3>
               <p>
-                Project work for the PhD course in <a href="https://smartdata.polito.it/phd-course-data-science-for-networks">Data Science for Networks</a> at SmartData@PoliTO.
+                Project work for the PhD course in
+                <a
+                  href="https://smartdata.polito.it/phd-course-data-science-for-networks"
+                  >Data Science for Networks</a
+                >
+                at SmartData@PoliTO.
               </p>
-              <a class="btn" href="https://github.com/laura-arditti/cascading-failures-in-power-grids" target="_blank">
+              <a
+                class="btn"
+                href="https://github.com/laura-arditti/cascading-failures-in-power-grids"
+                target="_blank"
+              >
                 View project
               </a>
             </section>
-          <!-- End of Project block. -->
-          <!-- Copy the whole <section> block to add more projects. -->
+            <!-- End of Project block. -->
+            <!-- Copy the whole <section> block to add more projects. -->
             <section class="project-item">
               <img
                 src="https://github.com/laura-arditti/Network-Dynamics-and-Learning/blob/main/preview.png?raw=true"
@@ -250,10 +304,19 @@
               />
               <h3>Network Dynamics and Learning</h3>
               <p>
-                Material for the laboratories of the <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01TXLSM&p_a_acc=2021&p_header=S&p_lang=IT">Network Dynamics and Learning</a> course for the MSc in Data Science and Engineering at Politecnico di Torino.
-
+                Material for the laboratories of the
+                <a
+                  href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01TXLSM&p_a_acc=2021&p_header=S&p_lang=IT"
+                  >Network Dynamics and Learning</a
+                >
+                course for the MSc in Data Science and Engineering at
+                Politecnico di Torino.
               </p>
-              <a class="btn" href="https://github.com/laura-arditti/Network-Dynamics-and-Learning" target="_blank">
+              <a
+                class="btn"
+                href="https://github.com/laura-arditti/Network-Dynamics-and-Learning"
+                target="_blank"
+              >
                 View project
               </a>
             </section>
@@ -271,21 +334,33 @@
           <section>
             <h3>PhD in Applied Mathematics</h3>
             <p>Politecnico di Torino - Italy, 2018-2021</p>
-            <p>Research Project: Structural properties of network games and resilient control of network systems.</p>
+            <p>
+              Research Project: Structural properties of network games and
+              resilient control of network systems.
+            </p>
           </section>
-        <!-- End of School block. -->
-        <!-- Copy this whole <section> block to add more schools. -->
+          <!-- End of School block. -->
+          <!-- Copy this whole <section> block to add more schools. -->
           <section>
             <h3>Master of Science in Mathematical Engineering</h3>
             <p>Politecnico di Torino - Italy, 2016-2018</p>
-            <p>Master degree program focused on the use of engineering technologies and methods of applied mathematics to define and solve complex problems that require detailed mathematical modelling, computer simulations and statistical investigation.</p>
+            <p>
+              Master degree program focused on the use of engineering
+              technologies and methods of applied mathematics to define and
+              solve complex problems that require detailed mathematical
+              modelling, computer simulations and statistical investigation.
+            </p>
           </section>
-        <!-- End of School block. -->
-        <!-- Copy this whole <section> block to add more schools. -->
+          <!-- End of School block. -->
+          <!-- Copy this whole <section> block to add more schools. -->
           <section>
             <h3>Bachelor of Science in Physical Engineering</h3>
             <p>Politecnico di Torino - Italy, 2013-2016</p>
-            <p>The degree program offers the opportunity of dealing with some of the most interesting and challenging issues of modern physics and technology..</p>
+            <p>
+              The degree program offers the opportunity of dealing with some of
+              the most interesting and challenging issues of modern physics and
+              technology..
+            </p>
           </section>
         </div>
         <!-- End of School block. -->
@@ -298,17 +373,30 @@
 
           <!-- Social media and contact links. Add or remove any networks. -->
           <ul class="contact-list">
-            <li><a href="mailto:laura.arditti@gmail.com">laura.arditti@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/laura-arditti/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/laura-arditti" target="_blank">GitHub</a></li>
             <li>
-              <a href="#top">
-                Home
-              </a>
+              <a href="mailto:laura.arditti@gmail.com"
+                >laura.arditti@gmail.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/laura-arditti/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/laura-arditti" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="#top"> Home </a>
             </li>
           </ul>
         </div>
       </footer>
     </main>
+    <script src="javascript/van11y-accessible-carrousel-aria.min.js"></script>
   </body>
 </html>
