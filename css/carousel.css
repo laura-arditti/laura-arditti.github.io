@@ -333,9 +333,3 @@ kbd {
 .news-carrousel__control__list__link:active {
   outline: 2px dotted #4d287f;
 }
-
-@media (max-width: 66em) {
-  body {
-    padding: 0 2em;
-  }
-}
