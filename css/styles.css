@@ -257,7 +257,7 @@ footer {
   }
   header .content-wrap {
     margin: 0 0;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
   }
   .projects img {
     width: 300px;
