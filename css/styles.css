@@ -183,6 +183,19 @@ header .content-wrap {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.job-item img {
+  max-width: 141px;
+  max-height: 219px;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+}
+
+.job-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* Projects
 -------------------------------------------------*/
 
@@ -242,11 +255,12 @@ footer {
     flex: 0 0 auto;
   }
   .projects img {
+    width: 300px;
     float: left;
     margin-right: 20px;
   }
   .job-item {
-    display: grid;
+    display: flex /*grid*/;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
